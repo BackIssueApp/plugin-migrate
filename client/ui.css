@@ -1,0 +1,26 @@
+/* Migration Assistant overlay. Reuses core tokens (--panel, --line, --muted…). */
+.mig-overlay { position: fixed; inset: 0; z-index: 90; background: rgba(0,0,0,.55); display: flex; align-items: flex-start; justify-content: center; padding: 7vh 16px 16px; }
+.mig-panel { width: 100%; max-width: 680px; max-height: 84vh; display: flex; flex-direction: column; background: var(--panel, #17151f); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
+.mig-head { display: flex; align-items: center; justify-content: space-between; padding: 14px 18px; border-bottom: 1px solid var(--line); font-size: 15px; }
+.mig-x { background: none; border: none; color: var(--muted); cursor: pointer; display: flex; padding: 4px; }
+.mig-x:hover { color: var(--ink, #fff); }
+.mig-body { padding: 16px 18px; overflow-y: auto; }
+.mig-note { font-size: 12.5px; color: var(--muted); line-height: 1.55; margin: 0 0 12px; }
+.mig-err { font-size: 12.5px; color: #f87171; margin: 0 0 12px; }
+.mig-card { border: 1px solid var(--line); border-radius: 10px; padding: 13px 14px; margin-bottom: 12px; font-size: 13px; }
+.mig-card b { display: block; margin-bottom: 4px; }
+.mig-row { display: flex; align-items: center; gap: 8px; }
+.mig-input { flex: 1; background: var(--ink, #0f0d15); color: inherit; border: 1px solid var(--line); border-radius: 7px; padding: 7px 10px; font: 12.5px var(--font-mono, ui-monospace, monospace); }
+.mig-tools { flex-wrap: wrap; margin-bottom: 10px; }
+.mig-flex { flex: 1; }
+.mig-lib { font-size: 12.5px; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.mig-list { display: flex; flex-direction: column; gap: 2px; max-height: 44vh; overflow-y: auto; border: 1px solid var(--line); border-radius: 10px; padding: 6px; }
+.mig-item { display: flex; align-items: center; gap: 9px; padding: 5px 8px; border-radius: 7px; cursor: pointer; font-size: 13px; }
+.mig-item:hover { background: var(--panel-2, rgba(255,255,255,.04)); }
+.mig-item.is-existing { opacity: .55; }
+.mig-title { flex: 1; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.mig-year { color: var(--faint, #8b8698); }
+.mig-tag { font: 600 10px var(--font-mono, ui-monospace, monospace); text-transform: uppercase; letter-spacing: .04em; color: var(--muted); border: 1px solid var(--line); border-radius: 20px; padding: 1px 7px; flex: none; }
+.mig-tag--dim { opacity: .7; }
+.mig-bar { height: 8px; border-radius: 20px; background: var(--panel-2, rgba(255,255,255,.06)); overflow: hidden; margin: 10px 0; }
+.mig-fill { height: 100%; border-radius: 20px; background: var(--accent, #ff2d6f); transition: width .5s ease; }
