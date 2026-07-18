@@ -3,7 +3,7 @@
 .mig-panel { width: 100%; max-width: 680px; max-height: 84vh; display: flex; flex-direction: column; background: var(--panel, #17151f); border: 1px solid var(--line); border-radius: 14px; overflow: hidden; }
 .mig-head { display: flex; align-items: center; justify-content: space-between; padding: 14px 18px; border-bottom: 1px solid var(--line); font-size: 15px; }
 .mig-x { background: none; border: none; color: var(--muted); cursor: pointer; display: flex; padding: 4px; }
-.mig-x:hover { color: var(--ink, #fff); }
+.mig-x:hover { color: var(--text, #fff); }
 .mig-body { padding: 16px 18px; overflow-y: auto; }
 .mig-note { font-size: 12.5px; color: var(--muted); line-height: 1.55; margin: 0 0 12px; }
 .mig-err { font-size: 12.5px; color: #f87171; margin: 0 0 12px; }

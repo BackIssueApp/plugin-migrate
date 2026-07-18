@@ -8,6 +8,12 @@ by the maintainers when changes merge, so concurrent PRs don't conflict here.
 
 ## [Unreleased]
 
+## [1.0.1] — 2026-07-18
+
+### Fixed
+- The overlay close button now brightens correctly on hover (it was using a
+  background token as a text color).
+
 ## [1.0.0] — 2026-07-18
 
 Initial release: import an existing Mylar3 or Kapowarr collection. Upload the

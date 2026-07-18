@@ -1,6 +1,6 @@
 {
   "name": "migrate",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Migration assistant: import an existing Mylar3 or Kapowarr collection with exact ComicVine matching",
   "type": "module",
   "private": true,
