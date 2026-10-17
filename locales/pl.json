@@ -1,0 +1,48 @@
+{
+  "menu": {
+    "label": "Migracja"
+  },
+  "title": "Migracja kolekcji",
+  "close": "Zamknij",
+  "picker": {
+    "intro": "Zaimportuj swoją kolekcję z <b>Mylar3</b> lub <b>Kapowarr</b>. Obie aplikacje przechowują te same identyfikatory serii, których używa BackIssue, więc każda seria jest dopasowywana dokładnie — stan obserwowania/wstrzymania zostaje przeniesiony, nic nie jest pobierane automatycznie, a ponowne uruchomienie jest bezpieczne (już dodane serie są pomijane). Pliki na dysku zostaną potem wykryte przez zwykłe skanowanie biblioteki.",
+    "upload": "Prześlij plik bazy danych",
+    "uploadNote": "Mylar3: <code>mylar.db</code> · Kapowarr: <code>Kapowarr.db</code> (najpierw zatrzymaj drugą aplikację lub prześlij kopię).",
+    "path": "…albo ścieżkę, którą ten serwer może odczytać",
+    "pathNote": "np. folder zamontowany w kontenerze.",
+    "read": "Odczytaj"
+  },
+  "busy": {
+    "uploading": "Przesyłanie {name}…",
+    "reading": "Odczytywanie…"
+  },
+  "preview": {
+    "found": "Znaleziono bibliotekę <b>{app}</b>: <b>{total}</b> serii ({fresh} nowych, {existing} już tutaj).",
+    "selectAllNew": "Zaznacz wszystkie nowe",
+    "selectNone": "Odznacz wszystkie",
+    "into": "do",
+    "defaultLibrary": "Biblioteka domyślna",
+    "import": "Importuj serie: {count}",
+    "inLibrary": "w bibliotece",
+    "paused": "wstrzymana"
+  },
+  "run": {
+    "nothingSelected": "Nic nie zaznaczono.",
+    "importing": "Importowanie… każda seria jest pobierana ze źródła metadanych, więc duża biblioteka zajmuje trochę czasu. Możesz to zamknąć — import będzie trwał dalej.",
+    "starting": "Uruchamianie…"
+  },
+  "done": {
+    "summary": "<b>Gotowe.</b> Dodano: {added} · już obecne: {existed} · nieudane: {failed}.",
+    "volume": "tom {id}",
+    "failuresNote": "Niepowodzenia to zwykle limit zapytań źródła metadanych — uruchom migrację ponownie później; zaimportowane serie zostaną automatycznie pominięte.",
+    "next": "Dalej: uruchom <b>System → Narzędzia → Skanuj całą bibliotekę</b>, aby pliki na dysku zostały powiązane z zaimportowanymi seriami.",
+    "toast": "Migracja zakończona: dodano serie: {count}."
+  },
+  "_shared": {
+    "plugins": {
+      "migrate": {
+        "description": "Asystent migracji: zaimportuj istniejącą kolekcję z Mylar3 lub Kapowarr z dokładnym dopasowaniem metadanych"
+      }
+    }
+  }
+}

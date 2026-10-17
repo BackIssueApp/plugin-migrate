@@ -1,0 +1,48 @@
+{
+  "menu": {
+    "label": "迁移"
+  },
+  "title": "迁移收藏",
+  "close": "关闭",
+  "picker": {
+    "intro": "从 <b>Mylar3</b> 或 <b>Kapowarr</b> 导入你的收藏。两者保存的系列 ID 与 BackIssue 相同，因此每个系列都能精确对应——监视/暂停状态会被保留，不会自动下载任何内容，重复运行也很安全（已添加的系列会被跳过）。磁盘上的文件会在之后的常规书库扫描中被识别。",
+    "upload": "上传数据库文件",
+    "uploadNote": "Mylar3：<code>mylar.db</code> · Kapowarr：<code>Kapowarr.db</code>（请先停止对方应用，或上传一份副本）。",
+    "path": "…或本服务器可读取的路径",
+    "pathNote": "例如挂载到容器中的文件夹。",
+    "read": "读取"
+  },
+  "busy": {
+    "uploading": "正在上传 {name}…",
+    "reading": "正在读取…"
+  },
+  "preview": {
+    "found": "找到一个 <b>{app}</b> 书库：<b>{total}</b> 个系列（{fresh} 个新的，{existing} 个已存在）。",
+    "selectAllNew": "选择全部新系列",
+    "selectNone": "全不选",
+    "into": "导入到",
+    "defaultLibrary": "默认书库",
+    "import": "导入 {count} 个系列",
+    "inLibrary": "已在书库中",
+    "paused": "已暂停"
+  },
+  "run": {
+    "nothingSelected": "未选择任何内容。",
+    "importing": "正在导入…每个系列都要从元数据源获取，大型书库需要一些时间。你可以关闭此窗口——导入会继续进行。",
+    "starting": "正在启动…"
+  },
+  "done": {
+    "summary": "<b>完成。</b>已添加 {added} · 已存在 {existed} · 失败 {failed}。",
+    "volume": "卷 {id}",
+    "failuresNote": "失败通常是元数据源的频率限制所致——稍后重新运行迁移即可；已导入的系列会自动跳过。",
+    "next": "下一步：运行 <b>系统 → 工具 → 扫描整个书库</b>，让磁盘上的文件关联到导入的系列。",
+    "toast": "迁移完成：已添加 {count} 个系列。"
+  },
+  "_shared": {
+    "plugins": {
+      "migrate": {
+        "description": "迁移助手：以精确的元数据匹配导入现有的 Mylar3 或 Kapowarr 收藏"
+      }
+    }
+  }
+}
