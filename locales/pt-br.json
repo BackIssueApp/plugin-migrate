@@ -1,0 +1,48 @@
+{
+  "menu": {
+    "label": "Migrar"
+  },
+  "title": "Migrar uma coleção",
+  "close": "Fechar",
+  "picker": {
+    "intro": "Importe a sua coleção do <b>Mylar3</b> ou do <b>Kapowarr</b>. Ambos salvam os mesmos identificadores de série que o BackIssue, por isso cada série corresponde exatamente: o estado seguida/em pausa é mantido, nada é baixado automaticamente e repetir é seguro (as séries já adicionadas são ignoradas). Os arquivos em disco são depois apanhados pela análise normal da biblioteca.",
+    "upload": "Carregar o arquivo da base de dados",
+    "uploadNote": "Mylar3: <code>mylar.db</code> · Kapowarr: <code>Kapowarr.db</code> (pare primeiro a outra aplicativo, ou carregue uma cópia).",
+    "path": "…ou um caminho que este servidor consiga ler",
+    "pathNote": "p. ex. uma pasta montada no contentor.",
+    "read": "Ler"
+  },
+  "busy": {
+    "uploading": "Carregando {name}…",
+    "reading": "Lendo…"
+  },
+  "preview": {
+    "found": "Encontrada uma biblioteca <b>{app}</b>: <b>{total}</b> séries ({fresh} novas, {existing} já presentes).",
+    "selectAllNew": "Selecionar todas as novas",
+    "selectNone": "Não selecionar nenhuma",
+    "into": "para",
+    "defaultLibrary": "Biblioteca padrão",
+    "import": "Importar {count} séries",
+    "inLibrary": "na biblioteca",
+    "paused": "em pausa"
+  },
+  "run": {
+    "nothingSelected": "Nada selecionado.",
+    "importing": "Importando… cada série é obtida da fonte de metadados, por isso uma biblioteca grande demora. Pode fechar esta janela; a importação continua.",
+    "starting": "Iniciando…"
+  },
+  "done": {
+    "summary": "<b>Concluído.</b> {added} adicionadas · {existed} já presentes · {failed} com falha.",
+    "volume": "série {id}",
+    "failuresNote": "As falhas devem-se normalmente ao limite de pedidos da fonte de metadados; repita a migração mais tarde, as séries importadas são ignoradas automaticamente.",
+    "next": "Seguindo: execute <b>Sistema → Ferramentas → Analisar toda a biblioteca</b> para que os arquivos em disco se liguem às séries importadas.",
+    "toast": "Migração concluída: {count} séries adicionadas."
+  },
+  "_shared": {
+    "plugins": {
+      "migrate": {
+        "description": "Assistente de migração: importar uma coleção Mylar3 ou Kapowarr existente com correspondência exata de metadados"
+      }
+    }
+  }
+}
