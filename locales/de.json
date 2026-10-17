@@ -37,5 +37,12 @@
     "failuresNote": "Fehlschläge liegen meist am Ratenlimit der Metadatenquelle; die Migration später erneut ausführen, importierte Reihen werden automatisch übersprungen.",
     "next": "Als Nächstes: <b>System → Werkzeuge → Gesamte Bibliothek scannen</b> ausführen, damit die Dateien auf der Platte den importierten Reihen zugeordnet werden.",
     "toast": "Migration abgeschlossen: {count} Reihen hinzugefügt."
+  },
+  "_shared": {
+    "plugins": {
+      "migrate": {
+        "description": "Migrationsassistent: eine bestehende Mylar3- oder Kapowarr-Sammlung mit exakter Metadaten-Zuordnung importieren"
+      }
+    }
   }
 }

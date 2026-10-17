@@ -37,5 +37,12 @@
     "failuresNote": "Les échecs viennent généralement de la limite de débit de la source de métadonnées ; relancez la migration plus tard, les séries importées sont ignorées automatiquement.",
     "next": "Ensuite : lancez <b>Système → Outils → Analyser toute la bibliothèque</b> pour rattacher les fichiers du disque aux séries importées.",
     "toast": "Migration terminée : {count} séries ajoutées."
+  },
+  "_shared": {
+    "plugins": {
+      "migrate": {
+        "description": "Assistant de migration : importer une collection Mylar3 ou Kapowarr existante avec une correspondance exacte des métadonnées"
+      }
+    }
   }
 }

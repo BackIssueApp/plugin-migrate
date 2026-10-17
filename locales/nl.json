@@ -37,5 +37,12 @@
     "failuresNote": "Mislukkingen komen meestal door de snelheidslimiet van de metadatabron; voer de migratie later opnieuw uit, geïmporteerde reeksen worden automatisch overgeslagen.",
     "next": "Daarna: voer <b>Systeem → Hulpmiddelen → Hele bibliotheek scannen</b> uit zodat bestanden op schijf aan de geïmporteerde reeksen worden gekoppeld.",
     "toast": "Migratie voltooid: {count} reeksen toegevoegd."
+  },
+  "_shared": {
+    "plugins": {
+      "migrate": {
+        "description": "Migratie-assistent: een bestaande Mylar3- of Kapowarr-verzameling importeren met exacte metadatakoppeling"
+      }
+    }
   }
 }

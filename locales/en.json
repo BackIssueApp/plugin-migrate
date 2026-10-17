@@ -1,5 +1,7 @@
 {
-  "menu": { "label": "Migrate" },
+  "menu": {
+    "label": "Migrate"
+  },
   "title": "Migrate a collection",
   "close": "Close",
   "picker": {
@@ -35,5 +37,12 @@
     "failuresNote": "Failures are usually the metadata source’s rate limit — re-run the migration later; imported series are skipped automatically.",
     "next": "Next: run <b>System → Tools → Scan entire library</b> so files on disk attach to the imported series.",
     "toast": "Migration finished: {count} series added."
+  },
+  "_shared": {
+    "plugins": {
+      "migrate": {
+        "description": "Migration assistant: import an existing Mylar3 or Kapowarr collection with exact metadata matching"
+      }
+    }
   }
 }

@@ -37,5 +37,12 @@
     "failuresNote": "As falhas devem-se normalmente ao limite de pedidos da fonte de metadados; repita a migração mais tarde, as séries importadas são ignoradas automaticamente.",
     "next": "A seguir: execute <b>Sistema → Ferramentas → Analisar toda a biblioteca</b> para que os ficheiros em disco se liguem às séries importadas.",
     "toast": "Migração concluída: {count} séries adicionadas."
+  },
+  "_shared": {
+    "plugins": {
+      "migrate": {
+        "description": "Assistente de migração: importar uma coleção Mylar3 ou Kapowarr existente com correspondência exata de metadados"
+      }
+    }
   }
 }
