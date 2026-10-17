@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "label": "Migrar"
+  },
+  "title": "Migrar una colección",
+  "close": "Cerrar",
+  "picker": {
+    "intro": "Importa tu colección desde <b>Mylar3</b> o <b>Kapowarr</b>. Ambos guardan los mismos identificadores de serie que BackIssue, así que cada serie se corresponde exactamente: el estado seguida/en pausa se conserva, no se descarga nada automáticamente y repetir el proceso es seguro (las series ya añadidas se omiten). Los archivos en disco los recoge después el escaneo normal de la biblioteca.",
+    "upload": "Subir el archivo de base de datos",
+    "uploadNote": "Mylar3: <code>mylar.db</code> · Kapowarr: <code>Kapowarr.db</code> (detén antes la otra aplicación o sube una copia).",
+    "path": "…o una ruta que este servidor pueda leer",
+    "pathNote": "p. ej. una carpeta montada en el contenedor.",
+    "read": "Leer"
+  },
+  "busy": {
+    "uploading": "Subiendo {name}…",
+    "reading": "Leyendo…"
+  },
+  "preview": {
+    "found": "Se encontró una biblioteca de <b>{app}</b>: <b>{total}</b> series ({fresh} nuevas, {existing} ya presentes).",
+    "selectAllNew": "Seleccionar todas las nuevas",
+    "selectNone": "No seleccionar ninguna",
+    "into": "en",
+    "defaultLibrary": "Biblioteca predeterminada",
+    "import": "Importar {count} series",
+    "inLibrary": "en la biblioteca",
+    "paused": "en pausa"
+  },
+  "run": {
+    "nothingSelected": "Nada seleccionado.",
+    "importing": "Importando… cada serie se obtiene de la fuente de metadatos, así que una biblioteca grande tarda un rato. Puedes cerrar esto; la importación sigue en marcha.",
+    "starting": "Iniciando…"
+  },
+  "done": {
+    "summary": "<b>Hecho.</b> {added} añadidas · {existed} ya presentes · {failed} fallidas.",
+    "volume": "serie {id}",
+    "failuresNote": "Los fallos suelen deberse al límite de peticiones de la fuente de metadatos; repite la migración más tarde, las series importadas se omiten automáticamente.",
+    "next": "Siguiente: ejecuta <b>Sistema → Herramientas → Escanear toda la biblioteca</b> para que los archivos en disco se vinculen a las series importadas.",
+    "toast": "Migración terminada: {count} series añadidas."
+  }
+}

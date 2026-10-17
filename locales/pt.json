@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "label": "Migrar"
+  },
+  "title": "Migrar uma coleção",
+  "close": "Fechar",
+  "picker": {
+    "intro": "Importe a sua coleção do <b>Mylar3</b> ou do <b>Kapowarr</b>. Ambos guardam os mesmos identificadores de série que o BackIssue, por isso cada série corresponde exatamente: o estado seguida/em pausa é mantido, nada é descarregado automaticamente e repetir é seguro (as séries já adicionadas são ignoradas). Os ficheiros em disco são depois apanhados pela análise normal da biblioteca.",
+    "upload": "Carregar o ficheiro da base de dados",
+    "uploadNote": "Mylar3: <code>mylar.db</code> · Kapowarr: <code>Kapowarr.db</code> (pare primeiro a outra aplicação, ou carregue uma cópia).",
+    "path": "…ou um caminho que este servidor consiga ler",
+    "pathNote": "p. ex. uma pasta montada no contentor.",
+    "read": "Ler"
+  },
+  "busy": {
+    "uploading": "A carregar {name}…",
+    "reading": "A ler…"
+  },
+  "preview": {
+    "found": "Encontrada uma biblioteca <b>{app}</b>: <b>{total}</b> séries ({fresh} novas, {existing} já presentes).",
+    "selectAllNew": "Selecionar todas as novas",
+    "selectNone": "Não selecionar nenhuma",
+    "into": "para",
+    "defaultLibrary": "Biblioteca predefinida",
+    "import": "Importar {count} séries",
+    "inLibrary": "na biblioteca",
+    "paused": "em pausa"
+  },
+  "run": {
+    "nothingSelected": "Nada selecionado.",
+    "importing": "A importar… cada série é obtida da fonte de metadados, por isso uma biblioteca grande demora. Pode fechar esta janela; a importação continua.",
+    "starting": "A iniciar…"
+  },
+  "done": {
+    "summary": "<b>Concluído.</b> {added} adicionadas · {existed} já presentes · {failed} falhadas.",
+    "volume": "série {id}",
+    "failuresNote": "As falhas devem-se normalmente ao limite de pedidos da fonte de metadados; repita a migração mais tarde, as séries importadas são ignoradas automaticamente.",
+    "next": "A seguir: execute <b>Sistema → Ferramentas → Analisar toda a biblioteca</b> para que os ficheiros em disco se liguem às séries importadas.",
+    "toast": "Migração concluída: {count} séries adicionadas."
+  }
+}

@@ -8,6 +8,13 @@ by the maintainers when changes merge, so concurrent PRs don't conflict here.
 
 ## [Unreleased]
 
+### Added
+
+- **Translated UI.** The migration overlay follows the language picked under
+  Profile → Language on BackIssue builds newer than 0.9.0, English on older
+  ones. Translations ship for French, German, Spanish, Italian, Portuguese
+  and Dutch in `locales/`.
+
 ## [1.0.1] — 2026-07-18
 
 ### Fixed

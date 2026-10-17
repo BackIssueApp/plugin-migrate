@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "label": "Migreren"
+  },
+  "title": "Een verzameling migreren",
+  "close": "Sluiten",
+  "picker": {
+    "intro": "Importeer je verzameling uit <b>Mylar3</b> of <b>Kapowarr</b>. Beide bewaren dezelfde reeks-id’s als BackIssue, dus elke reeks komt precies overeen: de status gevolgd/gepauzeerd gaat mee, er wordt niets automatisch gedownload en opnieuw uitvoeren is veilig (al toegevoegde reeksen worden overgeslagen). Bestanden op schijf worden daarna door de normale bibliotheekscan opgepikt.",
+    "upload": "Het databasebestand uploaden",
+    "uploadNote": "Mylar3: <code>mylar.db</code> · Kapowarr: <code>Kapowarr.db</code> (stop eerst de andere app, of upload een kopie).",
+    "path": "…of een pad dat deze server kan lezen",
+    "pathNote": "bijv. een map die in de container is gekoppeld.",
+    "read": "Lezen"
+  },
+  "busy": {
+    "uploading": "{name} uploaden…",
+    "reading": "Lezen…"
+  },
+  "preview": {
+    "found": "<b>{app}</b>-bibliotheek gevonden: <b>{total}</b> reeksen ({fresh} nieuw, {existing} al aanwezig).",
+    "selectAllNew": "Alle nieuwe selecteren",
+    "selectNone": "Niets selecteren",
+    "into": "naar",
+    "defaultLibrary": "Standaardbibliotheek",
+    "import": "{count} reeksen importeren",
+    "inLibrary": "in bibliotheek",
+    "paused": "gepauzeerd"
+  },
+  "run": {
+    "nothingSelected": "Niets geselecteerd.",
+    "importing": "Importeren… elke reeks wordt bij de metadatabron opgehaald, dus een grote bibliotheek duurt even. Je kunt dit sluiten; de import loopt door.",
+    "starting": "Starten…"
+  },
+  "done": {
+    "summary": "<b>Klaar.</b> {added} toegevoegd · {existed} al aanwezig · {failed} mislukt.",
+    "volume": "reeks {id}",
+    "failuresNote": "Mislukkingen komen meestal door de snelheidslimiet van de metadatabron; voer de migratie later opnieuw uit, geïmporteerde reeksen worden automatisch overgeslagen.",
+    "next": "Daarna: voer <b>Systeem → Hulpmiddelen → Hele bibliotheek scannen</b> uit zodat bestanden op schijf aan de geïmporteerde reeksen worden gekoppeld.",
+    "toast": "Migratie voltooid: {count} reeksen toegevoegd."
+  }
+}

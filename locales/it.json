@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "label": "Migra"
+  },
+  "title": "Migra una collezione",
+  "close": "Chiudi",
+  "picker": {
+    "intro": "Importa la tua collezione da <b>Mylar3</b> o <b>Kapowarr</b>. Entrambi salvano gli stessi id di serie usati da BackIssue, quindi ogni serie corrisponde esattamente: lo stato seguita/in pausa viene mantenuto, nulla viene scaricato in automatico e ripetere l’operazione è sicuro (le serie già aggiunte vengono saltate). I file su disco vengono poi raccolti dalla normale scansione della biblioteca.",
+    "upload": "Carica il file del database",
+    "uploadNote": "Mylar3: <code>mylar.db</code> · Kapowarr: <code>Kapowarr.db</code> (ferma prima l’altra app, oppure carica una copia).",
+    "path": "…oppure un percorso leggibile da questo server",
+    "pathNote": "es. una cartella montata nel container.",
+    "read": "Leggi"
+  },
+  "busy": {
+    "uploading": "Caricamento di {name}…",
+    "reading": "Lettura…"
+  },
+  "preview": {
+    "found": "Trovata una biblioteca <b>{app}</b>: <b>{total}</b> serie ({fresh} nuove, {existing} già presenti).",
+    "selectAllNew": "Seleziona tutte le nuove",
+    "selectNone": "Nessuna selezione",
+    "into": "in",
+    "defaultLibrary": "Biblioteca predefinita",
+    "import": "Importa {count} serie",
+    "inLibrary": "in biblioteca",
+    "paused": "in pausa"
+  },
+  "run": {
+    "nothingSelected": "Niente selezionato.",
+    "importing": "Importazione… ogni serie viene recuperata dalla fonte di metadati, quindi una biblioteca grande richiede tempo. Puoi chiudere questa finestra: l’importazione continua.",
+    "starting": "Avvio…"
+  },
+  "done": {
+    "summary": "<b>Fatto.</b> {added} aggiunte · {existed} già presenti · {failed} non riuscite.",
+    "volume": "serie {id}",
+    "failuresNote": "Gli errori di solito dipendono dal limite di richieste della fonte di metadati; ripeti la migrazione più tardi, le serie importate vengono saltate automaticamente.",
+    "next": "Poi: esegui <b>Sistema → Strumenti → Scansiona tutta la biblioteca</b> perché i file su disco si colleghino alle serie importate.",
+    "toast": "Migrazione completata: {count} serie aggiunte."
+  }
+}

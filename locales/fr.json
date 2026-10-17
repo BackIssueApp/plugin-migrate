@@ -1,0 +1,41 @@
+{
+  "menu": {
+    "label": "Migrer"
+  },
+  "title": "Migrer une collection",
+  "close": "Fermer",
+  "picker": {
+    "intro": "Importez votre collection depuis <b>Mylar3</b> ou <b>Kapowarr</b>. Les deux stockent les mêmes identifiants de série que BackIssue, donc chaque série correspond exactement : l’état suivi/en pause est conservé, rien n’est téléchargé automatiquement et relancer l’opération est sans risque (les séries déjà ajoutées sont ignorées). Les fichiers sur le disque sont ensuite repris par l’analyse normale de la bibliothèque.",
+    "upload": "Téléverser le fichier de base de données",
+    "uploadNote": "Mylar3 : <code>mylar.db</code> · Kapowarr : <code>Kapowarr.db</code> (arrêtez d’abord l’autre application, ou téléversez une copie).",
+    "path": "…ou un chemin lisible par ce serveur",
+    "pathNote": "par ex. un dossier monté dans le conteneur.",
+    "read": "Lire"
+  },
+  "busy": {
+    "uploading": "Téléversement de {name}…",
+    "reading": "Lecture…"
+  },
+  "preview": {
+    "found": "Bibliothèque <b>{app}</b> trouvée : <b>{total}</b> séries ({fresh} nouvelles, {existing} déjà présentes).",
+    "selectAllNew": "Sélectionner toutes les nouvelles",
+    "selectNone": "Ne rien sélectionner",
+    "into": "vers",
+    "defaultLibrary": "Bibliothèque par défaut",
+    "import": "Importer {count} séries",
+    "inLibrary": "dans la bibliothèque",
+    "paused": "en pause"
+  },
+  "run": {
+    "nothingSelected": "Rien de sélectionné.",
+    "importing": "Importation… chaque série est récupérée depuis la source de métadonnées, une grande bibliothèque prend donc du temps. Vous pouvez fermer cette fenêtre : l’importation continue.",
+    "starting": "Démarrage…"
+  },
+  "done": {
+    "summary": "<b>Terminé.</b> {added} ajoutées · {existed} déjà présentes · {failed} en échec.",
+    "volume": "série {id}",
+    "failuresNote": "Les échecs viennent généralement de la limite de débit de la source de métadonnées ; relancez la migration plus tard, les séries importées sont ignorées automatiquement.",
+    "next": "Ensuite : lancez <b>Système → Outils → Analyser toute la bibliothèque</b> pour rattacher les fichiers du disque aux séries importées.",
+    "toast": "Migration terminée : {count} séries ajoutées."
+  }
+}

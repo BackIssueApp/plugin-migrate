@@ -1,0 +1,39 @@
+{
+  "menu": { "label": "Migrate" },
+  "title": "Migrate a collection",
+  "close": "Close",
+  "picker": {
+    "intro": "Import your collection from <b>Mylar3</b> or <b>Kapowarr</b>. Both store the same series ids BackIssue uses, so every series maps exactly — monitored/paused state carries over, nothing is downloaded automatically, and re-running is safe (already-added series are skipped). Files on disk are picked up by the normal library scan afterwards.",
+    "upload": "Upload the database file",
+    "uploadNote": "Mylar3: <code>mylar.db</code> · Kapowarr: <code>Kapowarr.db</code> (stop the other app first, or upload a copy).",
+    "path": "…or a path this server can read",
+    "pathNote": "e.g. a folder mounted into the container.",
+    "read": "Read"
+  },
+  "busy": {
+    "uploading": "Uploading {name}…",
+    "reading": "Reading…"
+  },
+  "preview": {
+    "found": "Found a <b>{app}</b> library: <b>{total}</b> series ({fresh} new, {existing} already here).",
+    "selectAllNew": "Select all new",
+    "selectNone": "Select none",
+    "into": "into",
+    "defaultLibrary": "Default library",
+    "import": "Import {count} series",
+    "inLibrary": "in library",
+    "paused": "paused"
+  },
+  "run": {
+    "nothingSelected": "Nothing selected.",
+    "importing": "Importing… each series is fetched from the metadata source, so a big library takes a while. You can close this — the import keeps running.",
+    "starting": "Starting…"
+  },
+  "done": {
+    "summary": "<b>Done.</b> {added} added · {existed} already present · {failed} failed.",
+    "volume": "volume {id}",
+    "failuresNote": "Failures are usually the metadata source’s rate limit — re-run the migration later; imported series are skipped automatically.",
+    "next": "Next: run <b>System → Tools → Scan entire library</b> so files on disk attach to the imported series.",
+    "toast": "Migration finished: {count} series added."
+  }
+}
