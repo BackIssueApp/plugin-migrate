@@ -8,12 +8,14 @@ by the maintainers when changes merge, so concurrent PRs don't conflict here.
 
 ## [Unreleased]
 
+## [1.1.0] — 2026-10-17
+
 ### Added
 
 - **Translated UI.** The migration overlay follows the language picked under
-  Profile → Language on BackIssue builds newer than 0.9.0, English on older
-  ones. Translations ship for French, German, Spanish, Italian, Portuguese
-  and Dutch in `locales/`.
+  Profile → Language on BackIssue 0.9.1 and newer, English on older ones.
+  Translations ship for French, German, Spanish, Italian, Portuguese (Portugal
+  and Brazil), Dutch, Polish, Japanese and Simplified Chinese in `locales/`.
   Also covers the permission, job and library-type labels, the plugin
   description and the notification titles shown in BackIssue’s own screens.
 
